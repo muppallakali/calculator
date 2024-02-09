@@ -1,0 +1,38 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:180vh
+}
+#display{
+    width:500px;
+    height:100px;
+    text-align :right;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.26);
+    font-size: 50px;
+}
+#keys{
+    display:grid;
+    grid-template-columns: repeat(4,0.5fr)/*fr is for fractional unit*/;
+    gap: 10px;
+    padding: 25px;
+}
+#calculator{
+    background-color: rgba(24, 143, 143, 0.461);
+    border-radius: 50px;
+    max-width: 500px;
+    overflow: hidden;
+
+}
+button{
+    width: 100px;
+    height:100px;
+    border-radius: 50px;
+    border: none;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.342);
+    color: white;
+    margin-right: 5px;
+}
